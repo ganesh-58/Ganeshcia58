@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9800, #ff5722);
+}
+
+header {
+background: #d6eaff;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+nav a.active,
+nav a:hover {
+  background: #ff9800;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffe4ec;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.highlight {
+  color: #ff9800;
+}
